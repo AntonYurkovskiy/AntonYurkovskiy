@@ -16,14 +16,16 @@
 
 ### 💡 Основные компетенции 💡
 - Инструменты:
-    * Python: pandas, numpy, plotly, matplotlib
+    * Python
     * SQL
 - Skills: 
     * Предварительный анализ данных;
     * Предобработка данных;
     * Очистка данных;
     * Поиск и обработка: дубликатов, выбросов, аномалий.
-    * Визуализация потенциальных зависимостей / или их отсутствия.
+    * Преобразование и создание признаков;
+    * Визуализация;
+    * Машинное обучение.
 
 ### ⚡️ В настоящее время ⚡️
 - продолжаю обучение в SkillFactory
@@ -47,8 +49,10 @@
     * Explanatory data analysis;
     * Data preprocessing;
     * Data cleaning;
-    * Search and processing: duplicates, outliers, anomalies.
-    * Visualization of potential dependencies / or their absence.
+    * Search and processing: duplicates, outliers, anomalies;
+    * Feature engineering;
+    * Visualization;
+    * Machine learning.
 ### ⚡️ Currently ⚡️
 - I continue my studies in SkillFactory
 ### 🙌🏻 Contact me
