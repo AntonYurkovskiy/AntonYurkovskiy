@@ -10,6 +10,9 @@
 
 * [Проект: Анализ резюме из HeadHunter](https://github.com/AntonYurkovskiy/Project_1_hhVacancyAnalysis)
 * [Проект: Анализ вакансий из HeadHunter](https://github.com/AntonYurkovskiy/Project_2_SQL_hh_analiysis)
+* [Проект: Дата-сайенc проект для компании Booking](https://github.com/AntonYurkovskiy/Project_3_EDA_FE_BookingHotelsRating)
+* [Проект: Дата-сайенc проект в сфере финтех по выявлению наиболее лояльных клиентов банка](https://github.com/AntonYurkovskiy/Project_4_ML_BankDeposits)
+  
 
 ### 💡 Основные компетенции 💡
 - Инструменты:
