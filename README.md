@@ -12,6 +12,7 @@
 * [Проект: Анализ вакансий из HeadHunter](https://github.com/AntonYurkovskiy/Project_2_SQL_hh_analiysis)
 * [Проект: Проект для компании Booking](https://github.com/AntonYurkovskiy/Project_3_EDA_FE_BookingHotelsRating)
 * [Проект: Финтех проект  по выявлению наиболее лояльных клиентов банка](https://github.com/AntonYurkovskiy/Project_4_ML_BankDeposits)
+* [Проект: Предсказание общей продолжительности поездки на такси в Нью-Йорке](https://github.com/AntonYurkovskiy/Project_5_NY_City_Taxi_Trip_Duration)
   
 
 ### 💡 Основные компетенции 💡
@@ -30,7 +31,7 @@
 ### ⚡️ В настоящее время ⚡️
 - продолжаю обучение в SkillFactory
 ### 🙌🏻 Свяжись со мной
-- [Telegram](https://t.me/+79114966553)
+- [Telegram](https://t.me/YuAntonYu)
 - e-mail: antonyurkovskiy@yandex.ru
 
 ---
