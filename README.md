@@ -2,11 +2,11 @@
 
 **Автоматизирую работу с документами и данными на Python:** разбор анкет, PDF и почты, перенос данных между системами, загрузка в учётные системы по API.
 
-Работаю в морской отрасли, поэтому знаю документы экипажа и рабочие процессы изнутри. Знаю умею практикую в бюрократию и процессный подход крупных корпораций, постоянно декомпозирую безнес-процессы и оптимизирую их, понимаю что можно срезать для достижения конкретного результата. Делаю инструменты, которые заменяют ручной ввод: с логами, повторами при сбоях и тестами.
+Работаю в морской отрасли, поэтому знаю документы экипажа и рабочие процессы изнутри. Хорошо знаю бюрократию и процессный подход крупных корпораций, постоянно декомпозирую бизнес-процессы и оптимизирую их, понимаю, что можно упростить или убрать ради конкретного результата. Делаю инструменты, которые заменяют ручной ввод: с логами, повторами при сбоях и тестами.
 
 ## Готовый кейс: перенос анкет моряков в crewing-систему
 
-**[MARITIME-DATA-PARSER](https://github.com/AntonYurkovskiy/MARITIME-DATA-PARSER)** — массовая загрузка данных моряков из HTML-анкет в систему Заказчика через REST API.
+**[MARITIME-DATA-PARSER](https://github.com/AntonYurkovskiy/MARITIME-DATA-PARSER)** — массовая загрузка данных моряков из HTML-анкет в систему заказчика через REST API.
 
 | Было | Стало |
 |---|---|
@@ -21,7 +21,7 @@
 
 Эти две системы ещё не завершены (находятся в опытной эксплуатации). Демо на синтетических данных покажу по запросу.
 
-- **Разбор заявок(заказ работы) и ваучеров(выполнение работы) из почты и PDF.** Письма по IMAP → разбор заявок и вложений → распознавание ваучеров (Tesseract, TrOCR для рукописных полей) → сопоставление заявки и ваучера → расчёт по тарифам с курсом ЦБ и производственным календарём → выгрузка в Excel. FastAPI.
+- **Разбор заявок (заказ работы) и ваучеров (подтверждение выполненной работы) из почты и PDF.** Письма по IMAP → разбор заявок и вложений → распознавание ваучеров (Tesseract, TrOCR для рукописных полей) → сопоставление заявки и ваучера → расчёт по тарифам с курсом ЦБ и производственным календарём → выгрузка в Excel. FastAPI.
 - **Контроль сроков документов экипажа.** Реестр документов и их сроков, напоминания в Telegram заранее (за 90 / 60 / 30 дней), график ротации, разбор сканов документов.
 
 ## Что могу сделать
@@ -56,11 +56,11 @@ Python · FastAPI · REST API · SQL (PostgreSQL, SQLite) · pandas · Docker ·
 
 ## English
 
-I automate document and data work in Python: parsing forms, PDFs and email, migrating data between systems, and loading it into business systems via API. I work in the maritime industry, so I know crew documents and workflows first-hand.
+I automate document and data work in Python: parsing forms, PDFs and email, migrating data between systems, and loading it into business systems via API. I work in the maritime industry, so I know crew documents and workflows first-hand. I know large-corporate bureaucracy and process-driven ways of working, constantly break business processes down and optimize them, and understand what can be simplified or cut to reach a specific result.
 
-**Delivered:** [MARITIME-DATA-PARSER](https://github.com/AntonYurkovskiy/MARITIME-DATA-PARSER) — bulk loading of seafarer records from HTML résumés into a crewing system (360Crewing) via REST API. Blocks are sent separately (main info, addresses, relatives, contracts, documents, photo), with deduplication, automatic retries and a JSON report per run. 395 automated tests.
+**Delivered:** [MARITIME-DATA-PARSER](https://github.com/AntonYurkovskiy/MARITIME-DATA-PARSER) — bulk loading of seafarer records from HTML résumés into the client's system via REST API. Blocks are sent separately (main info, addresses, relatives, contracts, documents, photo), with deduplication, automatic retries and a JSON report per run. 395 automated tests.
 
-**In development** (demo on fictional data available on request): email and PDF intake with voucher OCR and tariff calculation; crew document expiry tracking with Telegram reminders.
+**In development** (not finished yet, in trial operation; demo on synthetic data available on request): parsing of work requests (work orders) and vouchers (confirmations of completed work) from email and PDF, with voucher OCR and tariff calculation; crew document expiry tracking with Telegram reminders.
 
 **Stack:** Python, FastAPI, REST API, SQL (PostgreSQL, SQLite), pandas, Docker, Telegram Bot API, Tesseract / TrOCR, pytest.
 
